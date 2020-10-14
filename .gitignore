@@ -10,3 +10,5 @@
 .minecraft/crafttweaker.log
 
 .minecraft/crash-reports/
+
+*.errored
