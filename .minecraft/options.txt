@@ -49,7 +49,7 @@ attackIndicator:2
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -89,6 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
@@ -116,8 +117,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
+key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -145,6 +146,8 @@ key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
 key_key.togglehud.desc:0
 key_Toggle Magnetism Suppressor:49
+key_key.ftbutilities.nbt:49:ALT
+key_key.ftbutilities.trash:211
 key_psiaddons.misc.keybinding.slot0:0
 key_psiaddons.misc.keybinding.slot1:0
 key_psiaddons.misc.keybinding.slot2:0
@@ -227,7 +230,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.6126761
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
