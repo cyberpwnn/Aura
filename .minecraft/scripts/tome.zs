@@ -6,14 +6,14 @@ import crafttweaker.oredict.IOreDictEntry;
 
 recipes.remove(<akashictome:tome>);
 <akashictome:tome>.displayName = "Tome of Knowledge";
-<bqt:bqt>.displayName = "Quest Book";
+<bqt:bqbook>.displayName = "Quest Book";
 
 var completeTome = <akashictome:tome>.withTag(
 {
     "akashictome:is_morphing": 1 as byte,
     "akashictome:data": {
         bqt: {
-            id: "bqt:bqt",
+            id: "bqt:bqbook",
             Count: 1 as byte,
             tag: {
                 "akashictome:definedMod": "bqt"
@@ -104,7 +104,7 @@ mods.initialinventory.InvHandler.addStartingItem(completeTome);
 
 var addedBooks = [
     <tconstruct:book>, 
-    <bqt:bqt>,
+    <bqt:bqbook>,
     <astralsorcery:itemjournal>, 
     <immersiveengineering:tool:3>, 
     <botania:lexicon>, 
@@ -120,4 +120,4 @@ for itemBook in addedBooks {
     itemBook.addTooltip(format.aqua("Left click air to get the Tome of Knowledge again"));
 }
 
-mods.initialinventory.InvHandler.addStartingItem("tok", completeTome);
+mods.initialinventory.InvHandler.addStartingItem(completeTome);
