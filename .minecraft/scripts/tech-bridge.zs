@@ -49,6 +49,9 @@ mods.botania.ManaInfusion.addInfusion(blutoniumIngot, cyaniteIngot, cyaniteManaC
 // Infinity Dust
 mods.thaumcraft.Infusion.registerRecipe("infinitypowder", researchInfinityPowder, <enderio:block_infinity:1>, infinityPowderInstability, [instrumentum * 82, alienis * 56], <appliedenergistics2:sky_stone_block>, [<astralsorcery:itemusabledust>, <botania:manaresource:1>, <bloodmagic:component:4>, <embers:crystal_ember>]);
 
+// Allying Palladium
+mods.tconstruct.Alloy.addRecipe(<liquid:palladium_fluid> * 15, [<liquid:platinum> * 3, <liquid:starmetal> * 5, <liquid:dark_steel> * 7]);
+
 // Arcane Construct
 RecipeBuilder.get("mage")
   .setShaped([
@@ -59,10 +62,145 @@ RecipeBuilder.get("mage")
     [<thaumcraft:ingot:1>, <enderio:item_basic_capacitor:2>, <embers:glimmer_shard>.withTag({light: 800}), <enderio:item_basic_capacitor:2>, <thaumcraft:ingot:1>]])
   .setFluid(<liquid:soularium> * 5570)
   .addTool(<artisanworktables:artisans_grimoire_elementium>, 350)
-  .addTool(<artisanworktables:artisans_quill_gold>, 350)
+  .addTool(<artisanworktables:artisans_quill_platinum>, 350)
   .addTool(<artisanworktables:artisans_solderer_diamond>, 350)
   .addOutput(<contenttweaker:arcaneconstruct> * 8)
   .setExtraOutputOne(<contenttweaker:arcaneconstruct> * 8, 0.2)
   .setExtraOutputTwo(<contenttweaker:arcaneconstruct> * 4, 0.4)
   .setExtraOutputThree(<contenttweaker:arcaneconstruct> * 2, 0.6)
+  .create();
+
+// Chaotic Construct
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <botania_tweaks:compressed_tiny_potato_8>, null, null],
+    [null, <draconicevolution:wyvern_core>, <thaumadditions:adaminite_ingot>, <draconicevolution:wyvern_core>, null],
+    [<psi:psi_decorative:2>, <thaumadditions:adaminite_ingot>, <minecraft:nether_star>, <thaumadditions:adaminite_ingot>, <psi:psi_decorative:2>],
+    [<botania:storage:4>, <draconicevolution:wyvern_core>, <thaumadditions:adaminite_ingot>, <draconicevolution:wyvern_core>, <botania:storage:4>],
+    [null, <taiga:palladium_block>, <artisanworktables:artisans_pan_elementium>, <taiga:palladium_block>, null]])
+  .setFluid(<liquid:liquid_death> * 16000)
+  .setSecondaryIngredients([<contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<contenttweaker:chaoticconstruct>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, null, <contenttweaker:arcaneconstruct>, null, null],
+    [null, <contenttweaker:arcaneconstruct>, <thaumadditions:adaminite_ingot>, <contenttweaker:arcaneconstruct>, null],
+    [<contenttweaker:arcaneconstruct>, <thaumadditions:mithrillium_ingot>, <contenttweaker:chaoticconstruct>, <thaumadditions:mithrillium_ingot>, <contenttweaker:arcaneconstruct>],
+    [<thaumadditions:mithrillium_ingot>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <thaumadditions:mithrillium_ingot>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addOutput(<thaumcraft:curio>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:chaoticconstruct>, <botania:manaresource:5>, null, <botania:manaresource:5>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>, <botania:manaresource:5>, <contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addOutput(<botania:pool:1>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>],
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>],
+    [<contenttweaker:arcaneconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <thaumcraft:curio>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:arcaneconstruct>],
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>],
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<appliedenergistics2:creative_energy_cell>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, null, null, null],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, null, null],
+    [null, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>],
+    [null, null, <contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>, null],
+    [null, null, <contenttweaker:arcaneconstruct>, null, <contenttweaker:arcaneconstruct>]])
+  .setSecondaryIngredients([<bloodarsenal:sigil_augmented_holding>, <bloodmagic:sigil_air>, <bloodarsenal:sigil_swimming>.withTag({}), <bloodarsenal:sigil_ender>.withTag({}), <bloodarsenal:sigil_augmented_holding>, <bloodarsenal:sigil_lightning>, <bloodarsenal:sigil_divinity>.withTag({}), <bloodarsenal:sigil_sentience>, <bloodmagic:sigil_divination>])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}))
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"})],
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>, <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>],
+    [<tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <tconstruct:large_plate>.withTag({Material: "obsidiorite"})],
+    [<tconstruct:large_plate>.withTag({Material: "obsidiorite"}), <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <tconstruct:large_plate>.withTag({Material: "obsidiorite"})],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<tconstruct:materials:50>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<tconstruct:large_plate>.withTag({Material: "sponge"}), <tconstruct:large_plate>.withTag({Material: "sponge"}), <contenttweaker:chaoticconstruct>, <tconstruct:large_plate>.withTag({Material: "sponge"}), <tconstruct:large_plate>.withTag({Material: "sponge"})],
+    [<tconstruct:large_plate>.withTag({Material: "sponge"}), <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <tconstruct:large_plate>.withTag({Material: "sponge"})],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>],
+    [<tconstruct:large_plate>.withTag({Material: "sponge"}), <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <tconstruct:large_plate>.withTag({Material: "sponge"})],
+    [<tconstruct:large_plate>.withTag({Material: "sponge"}), <tconstruct:large_plate>.withTag({Material: "sponge"}), <contenttweaker:chaoticconstruct>, <tconstruct:large_plate>.withTag({Material: "sponge"}), <tconstruct:large_plate>.withTag({Material: "sponge"})]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<thaumcraft:creative_flux_sponge>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <thaumcraft:curio>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:arcaneconstruct>]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<embers:creative_ember_source>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>, <contenttweaker:arcaneconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <thaumcraft:creative_flux_sponge>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <thaumicaugmentation:rift_jar>.withTag({seed: 1337, size: 100}), <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>]])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1000)
+  .addOutput(<thaumicwonders:creative_essentia_jar>)
+  .create();
+
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<thaumcraft:curio>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <thaumcraft:curio>],
+    [<contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <botania_tweaks:compressed_tiny_potato_8>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <thaumcraft:creative_flux_sponge>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>],
+    [<contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <botania_tweaks:compressed_tiny_potato_8>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>],
+    [<thaumcraft:curio>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <contenttweaker:chaoticconstruct>, <thaumcraft:curio>]])
+  .setSecondaryIngredients([<contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>, <botania_tweaks:compressed_tiny_potato_8>, <contenttweaker:chaoticconstruct>])
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1)
+  .addTool(<artisanworktables:artisans_hammer_platinum>, 1)
+  .addTool(<artisanworktables:artisans_file_platinum>, 1)
+  .addOutput(<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}))
   .create();

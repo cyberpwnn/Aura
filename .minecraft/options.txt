@@ -112,6 +112,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -120,8 +122,6 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -165,6 +165,7 @@ key_psiaddons.misc.keybinding.lastSlot:0
 key_psiaddons.misc.keybinding.slotUp:0
 key_psiaddons.misc.keybinding.slotDown:0
 key_psimisc.keybind:0
+key_walljump.key.walljump:42
 key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
@@ -205,6 +206,7 @@ key_key.cycleAttackAOE:0
 key_key.toggleShields:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_Mo'Bends Menu:34
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
