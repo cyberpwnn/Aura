@@ -1,11 +1,11 @@
-ofFogType:1
-ofFogStart:0.8
+ofFogType:2
+ofFogStart:0.2
 ofMipmapType:0
 ofOcclusionFancy:false
 ofSmoothFps:true
 ofSmoothWorld:true
 ofAoLevel:1.0
-ofClouds:0
+ofClouds:3
 ofCloudsHeight:0.0
 ofTrees:0
 ofDroppedItems:0

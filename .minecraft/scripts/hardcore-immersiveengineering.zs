@@ -81,7 +81,7 @@ RecipeBuilder.get("engineer")
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 var a = <conarm:armor_plate>.withTag({Material: "iron"});
 var b = <enderio:item_alloy_ingot:3>;
-mods.thaumcraft.Infusion.registerRecipe("immrgblock", "", <immersiveengineering:metal_decoration0:5>, 5, [<aspect:potentia> * 15,<aspect:machina>*5], <tconstruct:binding>.withTag({Material: "copper"}), [a,b,a,b,a,b,a,b]);
+mods.thaumcraft.Infusion.registerRecipe("immrgblock", "", <immersiveengineering:metal_decoration0:3>, 5, [<aspect:potentia> * 15,<aspect:machina>*5], <tconstruct:binding>.withTag({Material: "copper"}), [a,b,a,b,a,b,a,b]);
 
 recipes.remove(<immersiveengineering:material:8>);
 RecipeBuilder.get("designer")

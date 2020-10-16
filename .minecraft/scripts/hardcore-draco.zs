@@ -1,0 +1,1 @@
+mods.botania.ManaInfusion.addInfusion(<draconicevolution:draconium_dust>, <botanicadds:gaia_shard>, 15000);

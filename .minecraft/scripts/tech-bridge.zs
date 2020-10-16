@@ -1,6 +1,7 @@
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.SalisMundus;
 import mods.thaumcraft.Infusion;
+import mods.artisanworktables.builder.RecipeBuilder;
 
 val yelloriumDust = <bigreactors:dustyellorium>;
 val cyaniteDust = <bigreactors:dustcyanite>;
@@ -47,3 +48,21 @@ mods.botania.ManaInfusion.addInfusion(blutoniumIngot, cyaniteIngot, cyaniteManaC
 
 // Infinity Dust
 mods.thaumcraft.Infusion.registerRecipe("infinitypowder", researchInfinityPowder, <enderio:block_infinity:1>, infinityPowderInstability, [instrumentum * 82, alienis * 56], <appliedenergistics2:sky_stone_block>, [<astralsorcery:itemusabledust>, <botania:manaresource:1>, <bloodmagic:component:4>, <embers:crystal_ember>]);
+
+// Arcane Construct
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<thaumcraft:ingot:1>, <thaumadditions:seal_symbol>.withTag({Aspect: "machina"}), <botanicadds:rune_energy>, <thaumadditions:seal_symbol>.withTag({Aspect: "instrumentum"}), <thaumcraft:ingot:1>],
+    [<taiga:abyssum_dust>, <embers:flame_barrier>, <enderio:item_alloy_ball:8>, <embers:flame_barrier>, <taiga:nihilite_dust>],
+    [<bloodmagic:sigil_transposition>, <botania:manaresource:14>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.vicio"}}), <botania:manaresource:14>, <bloodarsenal:sigil_lightning>],
+    [<appliedenergistics2:material:10>, <naturesaura:sky_ingot>, <tconstruct:binding>.withTag({Material: "psigem"}), <naturesaura:sky_ingot>, <appliedenergistics2:material:10>],
+    [<thaumcraft:ingot:1>, <enderio:item_basic_capacitor:2>, <embers:glimmer_shard>.withTag({light: 800}), <enderio:item_basic_capacitor:2>, <thaumcraft:ingot:1>]])
+  .setFluid(<liquid:soularium> * 5570)
+  .addTool(<artisanworktables:artisans_grimoire_elementium>, 350)
+  .addTool(<artisanworktables:artisans_quill_gold>, 350)
+  .addTool(<artisanworktables:artisans_solderer_diamond>, 350)
+  .addOutput(<contenttweaker:arcaneconstruct> * 8)
+  .setExtraOutputOne(<contenttweaker:arcaneconstruct> * 8, 0.2)
+  .setExtraOutputTwo(<contenttweaker:arcaneconstruct> * 4, 0.4)
+  .setExtraOutputThree(<contenttweaker:arcaneconstruct> * 2, 0.6)
+  .create();
