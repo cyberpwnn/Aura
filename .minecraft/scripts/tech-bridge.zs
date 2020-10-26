@@ -52,6 +52,32 @@ mods.thaumcraft.Infusion.registerRecipe("infinitypowder", researchInfinityPowder
 // Allying Palladium
 mods.tconstruct.Alloy.addRecipe(<liquid:palladium_fluid> * 15, [<liquid:platinum> * 3, <liquid:starmetal> * 5, <liquid:dark_steel> * 7]);
 
+// Mundane Construct
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<thaumcraft:quicksilver>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]}), <thaumcraft:quicksilver>],
+    [<psi:material:1>, <bloodarsenal:base_item:2>, <psi:material:1>],
+    [<botania:livingwood1slab>, <botania:livingwood1slab>, <botania:livingwood1slab>]])
+  .addTool(<ore:artisansGrimoire>, 48)
+  .addOutput(<contenttweaker:mundaneconstruct> * 8)
+  .setExtraOutputOne(<contenttweaker:mundaneconstruct> * 3, 0.1)
+  .setExtraOutputTwo(<contenttweaker:mundaneconstruct> * 2, 0.2)
+  .setExtraOutputThree(<contenttweaker:mundaneconstruct>, 0.3)
+  .create();
+
+// Aether Construct
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<tconstruct:large_plate>.withTag({Material: "starmetal"}), <botania:lens:21>.withTag({}), <tconstruct:large_plate>.withTag({Material: "starmetal"})],
+    [<psi:material:2>, <thaumicaugmentation:augment_vis_battery>, <psi:material:2>],
+    [<tconstruct:large_plate>.withTag({Material: "starmetal"}), <embers:aspectus_dawnstone>, <tconstruct:large_plate>.withTag({Material: "starmetal"})]])
+  .addTool(<ore:artisansLens>, 1000)
+  .addOutput(<contenttweaker:aetherconstruct> * 8)
+  .setExtraOutputOne(<contenttweaker:aetherconstruct> * 3, 0.1)
+  .setExtraOutputTwo(<contenttweaker:aetherconstruct> * 2, 0.2)
+  .setExtraOutputThree(<contenttweaker:aetherconstruct>, 0.3)
+  .create();
+
 // Arcane Construct
 RecipeBuilder.get("mage")
   .setShaped([
@@ -61,9 +87,9 @@ RecipeBuilder.get("mage")
     [<appliedenergistics2:material:10>, <naturesaura:sky_ingot>, <tconstruct:binding>.withTag({Material: "psigem"}), <naturesaura:sky_ingot>, <appliedenergistics2:material:10>],
     [<thaumcraft:ingot:1>, <enderio:item_basic_capacitor:2>, <embers:glimmer_shard>.withTag({light: 800}), <enderio:item_basic_capacitor:2>, <thaumcraft:ingot:1>]])
   .setFluid(<liquid:soularium> * 5570)
-  .addTool(<artisanworktables:artisans_grimoire_elementium>, 350)
-  .addTool(<artisanworktables:artisans_quill_platinum>, 350)
-  .addTool(<artisanworktables:artisans_solderer_diamond>, 350)
+  .addTool(<ore:artisansGrimoire>, 350)
+  .addTool(<ore:artisansQuill>, 350)
+  .addTool(<ore:artisansSolderer>, 350)
   .addOutput(<contenttweaker:arcaneconstruct> * 8)
   .setExtraOutputOne(<contenttweaker:arcaneconstruct> * 8, 0.2)
   .setExtraOutputTwo(<contenttweaker:arcaneconstruct> * 4, 0.4)
