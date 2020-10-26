@@ -15,9 +15,9 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["AudioCraft.zip","FaithfulWithSound"]
+resourcePacks:["unity.zip", "AudioCraft.zip","FaithfulWithSound"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:144.217.79.72
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -90,7 +90,7 @@ key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
 key_Open Menu:25
-key_Toggle Freeze Effect:19
+key_Toggle Freeze Effect:78
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:45
@@ -112,8 +112,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -122,6 +120,8 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -241,7 +241,7 @@ key_enderio.keybind.fovminusfast:0
 key_Open GUI:0
 key_Profile GUI:210
 soundCategory_master:1.0
-soundCategory_music:0.6126761
+soundCategory_music:0.47887325
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
