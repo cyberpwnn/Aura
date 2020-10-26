@@ -1,0 +1,467 @@
+[04:56:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:56:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:56:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:56:48] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[04:56:48] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[04:56:48] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_221
+[04:56:48] [main/DEBUG] [FML]: Java classpath at launch is:
+[04:56:48] [main/DEBUG] [FML]:     forge-1.12.2-14.23.5.2854.jar
+[04:56:48] [main/DEBUG] [FML]: Java library path at launch is:
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\Sun\Java\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\Docker\Docker\Resources\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\Oculus\Support\oculus-runtime
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk1.8.0_221\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\Documents\development\maven\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\Git\cmd
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\PuTTY\
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\Documents\development\flutter\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\Documents\development\kuber
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Roaming\Pub\Cache\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[04:56:48] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\Documents\development\flutter\bin\cache\dart-sdk\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Roaming\Pub\Cache\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\nodejs\
+[04:56:48] [main/DEBUG] [FML]:     C:\ProgramData\chocolatey\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\dotnet\
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\Documents\development\openssl
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\Scripts
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.2.0\
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA GPU Computing Toolkit\TensorRT\lib
+[04:56:48] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA GPU Computing Toolkit\TensorRT\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Local\Microsoft\WindowsApps
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Local\GitHubDesktop\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Local\Programs\Microsoft VS Code\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Roaming\Pub\Cache\bin
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Local\Microsoft\WindowsApps
+[04:56:48] [main/DEBUG] [FML]:     C:\Users\cyberpwn\AppData\Roaming\npm
+[04:56:48] [main/DEBUG] [FML]:     
+[04:56:48] [main/DEBUG] [FML]:     .
+[04:56:48] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\libraries
+[04:56:48] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[04:56:48] [main/DEBUG] [FML]: Examining file: AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: AE2WTLib-1.12.2-1.0.34.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: appliedenergistics2-rv6-stable-7.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: astralsorcery-1.12.2-1.10.27.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Baubles-1.12-1.5.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BetterQuesting-3.5.329.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BetterQuestingTriggerer-1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: blockdrops-1.12.2-1.4.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BloodArsenal-1.12.2-2.2.2-31.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BloodMagic-1.12.2-2.4.3-105.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: bloodtinker-1.0.5.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Botania+r1.10-363.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: botaniatweaks-1.8.6.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BotanicAdditions-1.12.2-12.2.6.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BQMIE-1.12.2-2.0.1.0-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BQ_Gamestages-1.0.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: BrandonsCore-1.12.2-2.4.19.214-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: buildcraft-all-7.99.24.7.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: carryon-1.12.2-1.12.3.15.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: conarm-1.12.2-1.2.5.9.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_AIImprovements-1.12.1-0.0.1b1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_AIReducer-1.12.2-0.2.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_AkashicTome-1.2-12.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Ambience+1.1-10.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_artisanintegrations-1.12.2-1.2.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_artisanworktables-1.12.2-1.24.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_athenaeum-1.12.2-1.19.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_AttributeFix-1.12.2-1.0.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_AutoRegLib-1.3-32.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_base-1.12.2-3.13.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_bedpatch-2.2-1.12.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_bettercaves-1.12.2-1.5.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_BetterFps-1.4.8.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_BlockDropsTweaker-1.12.2-2.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_BlockTweaker-1.1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Bookshelf-1.12.2-2.3.584.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_chunkgenlimiter-1.1.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainDep extracted to C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\1.12.2\chunkgenlimiter-1.1-core.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Clumps-3.1.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_CoFHCore-1.12.2-4.6.6.1-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_ContentTweaker-1.12.2-4.9.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_corpse-1.12.2-1.0.6.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_CraftTweaker2-1.12-4.1.20.586.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_DummyCoreUnofficial-2.4.112.5.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_DynamicTrees-1.12.2-0.9.15.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_EnchantmentDescriptions-1.12.2-1.1.15.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_FastFurnace-1.12.2-1.3.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_FastLeafDecay-v14.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_FastWorkbench-1.12.2-1.7.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_foamfix-0.10.10-1.12.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Forgelin-1.8.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_future-mc-1.12.2-0.2.4.1 (3).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_GameStages-1.12.2-2.0.117.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Guide-API-1.12-2.1.8-63.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Guidebook-1.12.2-2.9.2.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/gigaherz.commons-1.12.1-0.6.4.jar(gigaherz.commons:gigaherz.commons-1.12.1:0.6.4) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\gigaherz\commons\gigaherz.commons-1.12.1\0.6.4\gigaherz.commons-1.12.1-0.6.4.jar extracted to .\mods\CORE_Guidebook-1.12.2-2.9.2.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: gigaherz.commons-1.12.1-0.6.4.jar
+[04:56:48] [main/DEBUG] [FML]: Making maven link for gigaherz.guidebook:Guidebook-1.12.2:2.9.2 in memory to C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\CORE_Guidebook-1.12.2-2.9.2.jar.
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_HammerLib-1.12.2-2.0.6.23.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_heartdrops-1.12.2-3.0.0.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_InitialInventory-3.0.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_ItemStages-1.12.2-2.0.49.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_jei_1.12.2-4.16.1.301.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_JustEnoughIDs-1.0.3-55.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_LagGoggles-1.12.2-5.8-132.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_librarianlib-1.12.2-4.22.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_LibraryEx-1.12.2-1.0.12.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/night-config-core-3.6.0.jar(com.electronwill.night-config:core:3.6.0) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\com\electronwill\night-config\core\3.6.0\core-3.6.0.jar extracted to .\mods\CORE_LibraryEx-1.12.2-1.0.12.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: core-3.6.0.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/night-config-json-3.6.0.jar(com.electronwill.night-config:json:3.6.0) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\com\electronwill\night-config\json\3.6.0\json-3.6.0.jar extracted to .\mods\CORE_LibraryEx-1.12.2-1.0.12.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: json-3.6.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_malisiscore-1.12.2-6.5.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_malisisdoors-1.12.2-7.3.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Mantle-1.12-1.3.3.55.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_minerva-library-1.0.13.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_MiscTweaks-1.12.2-1.5.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_MobStages-1.12.2-2.0.8.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_modtweaker-4.0.18.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Morpheus-1.12.2-3.5.106.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_MTLib-3.0.6.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_NetherEx-1.12.2-2.0.15.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_NoMoreRecipeConflict-0.13(1.12.2).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_OreExcavation-1.4.140.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_OreLib-1.12.2-3.6.0.1 (1).jar
+[04:56:48] [main/DEBUG] [FML]: Making maven link for org.orecruncher:OreLib:1.12.2-3.6.0.1 in memory to C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\CORE_OreLib-1.12.2-3.6.0.1 (1).jar.
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_p455w0rdslib-1.12.2-2.3.161.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Patchouli-1.0-20.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_phosphor-forge-mc1.12.2-0.2.7-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Making maven link for me.jellysquid.mods:phosphor:1.12.2-0.2.7-SNAPSHOT in memory to C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\CORE_phosphor-forge-mc1.12.2-0.2.7-universal.jar.
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Placebo-1.12.2-1.6.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Quark-r1.6-177.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_randompatches-1.12.2-1.22.1.7.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_RecipeStages-1.1.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_RedstoneFlux-1.12-2.1.1.1-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_ScalingHealth-1.12.2-1.3.42+147.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_ServerTabInfo-1.12.2-1.2.6.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_SilentLib-1.12.2-3.0.14+168.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Sledgehammer-1.12.2-2.0.8 (3).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_stg-1.12.2-1.2.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Surge-1.12.2-2.0.77.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_theoneprobe-1.12-1.4.28.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_thiccentities-1.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_TickCentral-2.6.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_Time+Stages-1.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_topaddons-1.12.2-1.13.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_tweakergui-1.12.2-0.5-beta.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_u_team_core-1.12.2-2.2.4.133.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_VanillaFix-1.0.10-150 (1).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_watercan-1.12.2-1.1.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: CORE_xpfromharvest-1.12.2-1.1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: crimsonrevelations-0.8.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: DankNull-1.12.2-1.7.91.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Draconic-Evolution-1.12.2-2.3.27.353-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: dynamictreesThaumicBases-1.12.2-1.1.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: EmbersRekindled-1.13-hotfix2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: EnderCore-1.12.2-0.5.76 (1).jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/EnderCore-1.12.2-0.5.76-core.jar(com.enderio.core:EnderCore:1.12.2-0.5.76:core) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\com\enderio\core\EnderCore\1.12.2-0.5.76\EnderCore-1.12.2-0.5.76-core.jar extracted to .\mods\EnderCore-1.12.2-0.5.76 (1).jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: EnderCore-1.12.2-0.5.76-core.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: EnderIO-1.12.2-5.2.60.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/AutoSave-1.12.2-1.0.11.jar(info.loenwind.autosave:AutoSave:1.12.2-1.0.11) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\info\loenwind\autosave\AutoSave\1.12.2-1.0.11\AutoSave-1.12.2-1.0.11.jar extracted to .\mods\EnderIO-1.12.2-5.2.60.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: AutoSave-1.12.2-1.0.11.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/AutoConfig-1.12.2-1.0.2.jar(info.loenwind.autoconfig:AutoConfig:1.12.2-1.0.2) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\info\loenwind\autoconfig\AutoConfig\1.12.2-1.0.2\AutoConfig-1.12.2-1.0.2.jar extracted to .\mods\EnderIO-1.12.2-5.2.60.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: AutoConfig-1.12.2-1.0.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: EnderTweaker-1.12.2-1.2.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: extraalchemy-forge-1.12-build11-0.5.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ExtraBotany-r1.1-58r.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ExtremeReactors-1.12.2-0.4.5.67.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: FTBLib-5.4.7.2 (1).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: FTBUtilities-5.4.1.130 (1).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Harvest-1.12-1.2.7-20.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: iChunUtil-1.12.2-7.2.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ImmersiveCables-1.12.2-1.3.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-0.12-98.jar
+[04:56:48] [main/DEBUG] [FML]: Found existing ContainedDep META-INF/libraries/ImmersiveEngineering-0.12-98-core.jar(blusunrize:ImmersiveEngineering-core:0.12-98) from C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\mods\memory_repo\blusunrize\ImmersiveEngineering-core\0.12-98\ImmersiveEngineering-core-0.12-98.jar extracted to .\mods\ImmersiveEngineering-0.12-98.jar, skipping extraction
+[04:56:48] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-core-0.12-98.jar
+[04:56:48] [main/DEBUG] [FML]: Making maven link for blusunrize:ImmersiveEngineering:0.12-98 in memory to C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\ImmersiveEngineering-0.12-98.jar.
+[04:56:48] [main/DEBUG] [FML]: Examining file: immersivepetroleum-1.12.2-1.1.9.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: instantunify-1.12.2-1.1.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: JustEnoughEnergistics-1.12.2-1.0.8.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Login_Shield-1.12.2-6-g5654706.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: MagicalPsi-1.3.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: manatweaks-1.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ManaVisualizer-r1.0-1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: materialis-1.12.2-1.2.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: MCMultiPart-2.5.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: minicoal-1.12.2-1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: moartinkers-0.6.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: MobAmputation-1.12.2-7.0.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: mobends-0.24_for_MC-1.12.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: NaturesAura-18.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: OpenGlider-1.12.1-1.1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: OreStages-1.12.2-2.0.37.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: plustic-8.0.1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: PotionCore-1.9_for_1.12.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: PotionFingers-r1.0-8.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: practicallogistics2-1.12.2-3.0.8-11.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Psi-r1.1-78.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: PsiAddons-1.1.05.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: RFExpansion-3.4.31.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: SoManyEnchantments-0.5.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: sonarcore-1.12.2-5.0.19-20.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: StandardExpansion-3.4.173.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: taiga-1.12.2-1.3.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: tc6aspects4jei-0.0.2a.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: TConstruct-1.12.2-2.13.0.183.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Thaumcraft-1.12.2-6.1.BETA26.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ThaumicAdditions-1.12.2-12.4.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ThaumicAugmentation-1.12.2-2.0.8 (1).jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: thaumicbases-3.3.500.6r.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: thaumicbrewing-1.0.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: thaumicenergistics-2.2.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ThaumicInventoryScanning_1.12.2-2.0.10.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ThaumicJEI-1.12.2-1.6.0-27.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: thaumicperiphery-0.3.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: thaumicwonders-1.8.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Tinkers'+Addons-1.12.1-1.0.7.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: TinkersComplement-1.12.2-0.4.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: TinkerStages-1.12.2-2.0.15.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: TinkerToolLeveling-1.12.2-1.1.0.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: tweakersconstruct-1.12.2-1.5.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: UniDict-1.12.2-2.9.7.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: useful_backpacks-1.12.2-1.5.1.31.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: walljump-1.12.2-1.2.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: WanionLib-1.12.2-2.5.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: Waystones_1.12.2-4.0.72.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: WirelessFluidTerminal-1.12.2-1.0.4.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: WirelessInterfaceTerminal-1.12.2-1.0.2.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: WirelessPatternTerminal-1.12.2-1.0.3.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: wizardry-0.11.1.jar
+[04:56:48] [main/DEBUG] [FML]: Examining file: zerocore-1.12.2-0.1.2.8.jar
+[04:56:48] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods\1.12.2
+[04:56:48] [main/DEBUG] [FML]: Examining file: chunkgenlimiter-1.1-core.jar
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\gigaherz\commons\gigaherz.commons-1.12.1\0.6.4\gigaherz.commons-1.12.1-0.6.4.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\CORE_Guidebook-1.12.2-2.9.2.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\com\electronwill\night-config\core\3.6.0\core-3.6.0.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\com\electronwill\night-config\json\3.6.0\json-3.6.0.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\CORE_OreLib-1.12.2-3.6.0.1 (1).jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\CORE_phosphor-forge-mc1.12.2-0.2.7-universal.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\com\enderio\core\EnderCore\1.12.2-0.5.76\EnderCore-1.12.2-0.5.76-core.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\info\loenwind\autosave\AutoSave\1.12.2-1.0.11\AutoSave-1.12.2-1.0.11.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\info\loenwind\autoconfig\AutoConfig\1.12.2-1.0.2\AutoConfig-1.12.2-1.0.2.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\memory_repo\blusunrize\ImmersiveEngineering-core\0.12-98\ImmersiveEngineering-core-0.12-98.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: File already proccessed C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\ImmersiveEngineering-0.12-98.jar, Skipping
+[04:56:48] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[04:56:48] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[04:56:48] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[04:56:48] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[04:56:48] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[04:56:48] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[04:56:48] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[04:56:48] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[04:56:48] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[04:56:48] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[04:56:48] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[04:56:48] [main/DEBUG] [FML]: Discovering coremods
+[04:56:48] [main/INFO] [FML]: Searching C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods for mods
+[04:56:48] [main/DEBUG] [FML]:   Adding AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding AE2WTLib-1.12.2-1.0.34.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding appliedenergistics2-rv6-stable-7.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding astralsorcery-1.12.2-1.10.27.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Baubles-1.12-1.5.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BetterQuesting-3.5.329.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BetterQuestingTriggerer-1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding blockdrops-1.12.2-1.4.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BloodArsenal-1.12.2-2.2.2-31.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BloodMagic-1.12.2-2.4.3-105.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding bloodtinker-1.0.5.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Botania+r1.10-363.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding botaniatweaks-1.8.6.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BotanicAdditions-1.12.2-12.2.6.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BQMIE-1.12.2-2.0.1.0-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BQ_Gamestages-1.0.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding BrandonsCore-1.12.2-2.4.19.214-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding buildcraft-all-7.99.24.7.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding carryon-1.12.2-1.12.3.15.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CodeChickenLib-1.12.2-3.2.3.358-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CoFHWorld-1.12.2-1.4.0.1-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding conarm-1.12.2-1.2.5.9.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_AIImprovements-1.12.1-0.0.1b1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_AIReducer-1.12.2-0.2.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_AkashicTome-1.2-12.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Ambience+1.1-10.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_artisanintegrations-1.12.2-1.2.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_artisanworktables-1.12.2-1.24.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_athenaeum-1.12.2-1.19.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_AttributeFix-1.12.2-1.0.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_AutoRegLib-1.3-32.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_base-1.12.2-3.13.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_bedpatch-2.2-1.12.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_bettercaves-1.12.2-1.5.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_BetterFps-1.4.8.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_BlockDropsTweaker-1.12.2-2.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_BlockTweaker-1.1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Bookshelf-1.12.2-2.3.584.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_chunkgenlimiter-1.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Clumps-3.1.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_CoFHCore-1.12.2-4.6.6.1-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_ContentTweaker-1.12.2-4.9.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_corpse-1.12.2-1.0.6.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_CraftTweaker2-1.12-4.1.20.586.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_DummyCoreUnofficial-2.4.112.5.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_DynamicTrees-1.12.2-0.9.15.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_EnchantmentDescriptions-1.12.2-1.1.15.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_FastFurnace-1.12.2-1.3.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_FastLeafDecay-v14.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_FastWorkbench-1.12.2-1.7.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_foamfix-0.10.10-1.12.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Forgelin-1.8.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_future-mc-1.12.2-0.2.4.1 (3).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_GameStages-1.12.2-2.0.117.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Guide-API-1.12-2.1.8-63.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Guidebook-1.12.2-2.9.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_HammerLib-1.12.2-2.0.6.23.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_heartdrops-1.12.2-3.0.0.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_InitialInventory-3.0.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_ItemStages-1.12.2-2.0.49.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_jei_1.12.2-4.16.1.301.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_JustEnoughIDs-1.0.3-55.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_LagGoggles-1.12.2-5.8-132.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_librarianlib-1.12.2-4.22.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_LibraryEx-1.12.2-1.0.12.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_malisiscore-1.12.2-6.5.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_malisisdoors-1.12.2-7.3.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Mantle-1.12-1.3.3.55.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_minerva-library-1.0.13.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_MiscTweaks-1.12.2-1.5.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_MobStages-1.12.2-2.0.8.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_modtweaker-4.0.18.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Morpheus-1.12.2-3.5.106.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_MTLib-3.0.6.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_NetherEx-1.12.2-2.0.15.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_NoMoreRecipeConflict-0.13(1.12.2).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_OreExcavation-1.4.140.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_OreLib-1.12.2-3.6.0.1 (1).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_p455w0rdslib-1.12.2-2.3.161.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Patchouli-1.0-20.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_phosphor-forge-mc1.12.2-0.2.7-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Placebo-1.12.2-1.6.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Quark-r1.6-177.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_randompatches-1.12.2-1.22.1.7.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_RecipeStages-1.1.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_RedstoneFlux-1.12-2.1.1.1-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_ScalingHealth-1.12.2-1.3.42+147.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_ServerTabInfo-1.12.2-1.2.6.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_SilentLib-1.12.2-3.0.14+168.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Sledgehammer-1.12.2-2.0.8 (3).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_stg-1.12.2-1.2.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Surge-1.12.2-2.0.77.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_theoneprobe-1.12-1.4.28.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_thiccentities-1.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_TickCentral-2.6.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_Time+Stages-1.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_topaddons-1.12.2-1.13.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_tweakergui-1.12.2-0.5-beta.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_u_team_core-1.12.2-2.2.4.133.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_VanillaFix-1.0.10-150 (1).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_watercan-1.12.2-1.1.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding CORE_xpfromharvest-1.12.2-1.1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding crimsonrevelations-0.8.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding DankNull-1.12.2-1.7.91.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Draconic-Evolution-1.12.2-2.3.27.353-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding dynamictreesThaumicBases-1.12.2-1.1.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding EmbersRekindled-1.13-hotfix2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding EnderCore-1.12.2-0.5.76 (1).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding EnderIO-1.12.2-5.2.60.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding EnderTweaker-1.12.2-1.2.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding extraalchemy-forge-1.12-build11-0.5.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ExtraBotany-r1.1-58r.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ExtremeReactors-1.12.2-0.4.5.67.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding FTBLib-5.4.7.2 (1).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding FTBUtilities-5.4.1.130 (1).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Harvest-1.12-1.2.7-20.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding iChunUtil-1.12.2-7.2.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ImmersiveCables-1.12.2-1.3.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ImmersiveEngineering-0.12-98.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding immersivepetroleum-1.12.2-1.1.9.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding instantunify-1.12.2-1.1.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding JustEnoughEnergistics-1.12.2-1.0.8.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Login_Shield-1.12.2-6-g5654706.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding MagicalPsi-1.3.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding manatweaks-1.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ManaVisualizer-r1.0-1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding materialis-1.12.2-1.2.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding MCMultiPart-2.5.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding minicoal-1.12.2-1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding moartinkers-0.6.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding MobAmputation-1.12.2-7.0.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding mobends-0.24_for_MC-1.12.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding NaturesAura-18.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding OpenGlider-1.12.1-1.1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding OreStages-1.12.2-2.0.37.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding plustic-8.0.1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding PotionCore-1.9_for_1.12.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding PotionFingers-r1.0-8.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding practicallogistics2-1.12.2-3.0.8-11.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Psi-r1.1-78.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding PsiAddons-1.1.05.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding RFExpansion-3.4.31.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding SoManyEnchantments-0.5.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding sonarcore-1.12.2-5.0.19-20.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding StandardExpansion-3.4.173.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding taiga-1.12.2-1.3.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding tc6aspects4jei-0.0.2a.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding TConstruct-1.12.2-2.13.0.183.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Thaumcraft-1.12.2-6.1.BETA26.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ThaumicAdditions-1.12.2-12.4.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ThaumicAugmentation-1.12.2-2.0.8 (1).jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding thaumicbases-3.3.500.6r.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding thaumicbrewing-1.0.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding thaumicenergistics-2.2.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ThaumicInventoryScanning_1.12.2-2.0.10.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ThaumicJEI-1.12.2-1.6.0-27.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding thaumicperiphery-0.3.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding thaumicwonders-1.8.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding ThermalFoundation-1.12.2-2.6.7.1-universal.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Tinkers'+Addons-1.12.1-1.0.7.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding TinkersComplement-1.12.2-0.4.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding TinkerStages-1.12.2-2.0.15.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding TinkerToolLeveling-1.12.2-1.1.0.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding tweakersconstruct-1.12.2-1.5.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding UniDict-1.12.2-2.9.7.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding useful_backpacks-1.12.2-1.5.1.31.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding walljump-1.12.2-1.2.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding WanionLib-1.12.2-2.5.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding Waystones_1.12.2-4.0.72.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding WirelessFluidTerminal-1.12.2-1.0.4.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding WirelessInterfaceTerminal-1.12.2-1.0.2.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding WirelessPatternTerminal-1.12.2-1.0.3.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding wizardry-0.11.1.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]:   Adding zerocore-1.12.2-0.1.2.8.jar to the mod list
+[04:56:48] [main/INFO] [FML]: Searching C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\.minecraft\server\.\mods\1.12.2 for mods
+[04:56:48] [main/DEBUG] [FML]:   Adding chunkgenlimiter-1.1-core.jar to the mod list
+[04:56:48] [main/DEBUG] [FML]: Examining for coremod candidacy AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Not found coremod data in AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
+[04:56:48] [main/DEBUG] [FML]: Examining for coremod candidacy AE2WTLib-1.12.2-1.0.34.jar
+[04:56:48] [main/DEBUG] [FML]: Not found coremod data in AE2WTLib-1.12.2-1.0.34.jar
+[04:56:48] [main/DEBUG] [FML]: Examining for coremod candidacy appliedenergistics2-rv6-stable-7.jar
+[04:56:48] [main/DEBUG] [FML]: Not found coremod data in appliedenergistics2-rv6-stable-7.jar
+[04:56:48] [main/DEBUG] [FML]: Examining for coremod candidacy astralsorcery-1.12.2-1.10.27.jar
+[04:56:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in astralsorcery-1.12.2-1.10.27.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[04:56:48] [main/DEBUG] [FML]: Instantiating coremod class AstralCore

@@ -12,3 +12,5 @@
 .minecraft/crash-reports/
 
 *.errored
+
+.minecraft/server/world/
