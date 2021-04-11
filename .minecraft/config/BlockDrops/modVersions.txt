@@ -42,7 +42,6 @@
   "gamestages": "2.0.117",
   "topaddons": "1.12.2-1.13.0",
   "FML": "8.0.99.99",
-  "rtg": "6.1.0.0-snapshot.1",
   "aenetvistool": "1.0.3",
   "enderiointegrationtic": "5.2.60",
   "naturesaura": "18.1",
