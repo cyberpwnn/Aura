@@ -1,0 +1,84 @@
+{
+    "identity": {
+        "name": "The name of this pack",
+        "description": "The description of this pack",
+        "version": "15"
+    },
+    "game": {
+        "forgeVersion": "14.23.5.2847",
+        "minecraftVersion": "1.12.2"
+    },
+    "profiles": [
+        {
+            "name": "ultra",
+            "launchArgs": [
+                "-Xmx4g",
+                "-Xms1g",
+                "-XX:+UseG1GC",
+                "-XX:+UnlockExperimentalVMOptions",
+                "-XX:MaxGCPauseMillis=12",
+                "-XX:+DisableExplicitGC",
+                "-XX:+ParallelRefProcEnabled",
+                "-XX:ParallelGCThreads=16",
+                "-XX:ConcGCThreads=6",
+                "-XX:G1HeapWastePercent=15"
+            ]
+        }
+    ],
+    "install": [
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/.ReAuth.cfg",
+            "location": "/",
+            "name": ".ReAuth",
+            "type": "cfg"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/crosshair_config.ccmcfg",
+            "location": "/",
+            "name": "crosshair_config",
+            "type": "ccmcfg"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/icon.png",
+            "location": "/",
+            "name": "icon",
+            "type": "png"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/icon-16.png",
+            "location": "/",
+            "name": "icon-16",
+            "type": "png"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/icon-32.png",
+            "location": "/",
+            "name": "icon-32",
+            "type": "png"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/icon-256.png",
+            "location": "/",
+            "name": "icon-256",
+            "type": "png"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/options.txt",
+            "location": "/",
+            "name": "options",
+            "type": "txt"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/optionsof.txt",
+            "location": "/",
+            "name": "optionsof",
+            "type": "txt"
+        },
+        {
+            "download": "https://raw.githubusercontent.com/cyberpwnn/Aura/main/.minecraft/optionsshaders.txt",
+            "location": "/",
+            "name": "optionsshaders",
+            "type": "txt"
+        }
+]
+}

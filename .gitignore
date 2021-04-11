@@ -20,3 +20,7 @@
 *.log
 
 .minecraft/screenshots/
+
+lk/LaunchKit/
+
+compile/
