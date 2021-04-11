@@ -1,4 +1,0 @@
-/lk set pack file://pack.json
-/mc validate
-/mc auth ???
-/mc start

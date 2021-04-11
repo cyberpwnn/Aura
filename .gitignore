@@ -24,3 +24,7 @@
 lk/LaunchKit/
 
 compile/
+
+natives/
+
+.minecraft/.mixin.out/audit/mixin_implementation_report.txt
