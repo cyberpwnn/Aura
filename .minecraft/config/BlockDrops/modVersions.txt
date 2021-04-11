@@ -29,7 +29,6 @@
   "enderioconduits": "5.2.60",
   "corpse": "1.12.2-1.0.6",
   "malisiscore": "1.12.2-6.5.1-SNAPSHOT",
-  "unidict": "1.12.2-2.9.7",
   "openglider": "@VERSION@",
   "redstoneflux": "2.1.1",
   "blur": "1.0.4-14",
