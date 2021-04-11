@@ -1,5 +1,5 @@
-#Wed Oct 14 05:45:22 EDT 2020
-shaderPack=OFF
+#Sun Apr 11 05:29:34 EDT 2021
+shaderPack=SEUS PTGI HRR Test 2.1.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

@@ -14,3 +14,9 @@
 *.errored
 
 .minecraft/server/world/
+
+.minecraft/server/logs/
+
+*.log
+
+.minecraft/screenshots/
