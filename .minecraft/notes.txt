@@ -1,5 +1,4 @@
 Add Mapping Mod
-Dont use fullscreen default
 Disable shaders for default
 footstep sounds are way too loud
 UNABLE TO DROWN
