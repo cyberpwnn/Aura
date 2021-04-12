@@ -67,22 +67,6 @@
 			"generationStage": "terrain_alteration"
 		}, 
 		{
-			"trait": "libraryex:ore",
-			"generationAttempts": 12,
-			"randomizeGenerationAttempts": false,
-			"generationProbability": 1.0,
-			"minimumGenerationHeight": 10,
-			"maximumGenerationHeight": 108,
-			"veinSize": 24,
-			"blockToReplace": {
-				"block": "netherex:icy_netherrack"
-			},
-			"blockToSpawn": {
-				"block": "netherex:amethyst_ore"
-			},
-			"generationStage": "ore"
-		}, 
-		{
 			"trait": "libraryex:scatter",
 			"generationAttempts": 5,
 			"randomizeGenerationAttempts": true,
@@ -129,6 +113,22 @@
 				"block": "minecraft:glowstone"
 			},
 			"generationStage": "decoration"
+		}, 
+		{
+			"trait": "libraryex:ore",
+			"generationAttempts": 12,
+			"randomizeGenerationAttempts": false,
+			"generationProbability": 1.0,
+			"minimumGenerationHeight": 10,
+			"maximumGenerationHeight": 108,
+			"veinSize": 24,
+			"blockToReplace": {
+				"block": "netherex:icy_netherrack"
+			},
+			"blockToSpawn": {
+				"block": "netherex:amethyst_ore"
+			},
+			"generationStage": "ore"
 		}, 
 		{
 			"trait": "libraryex:ore",
