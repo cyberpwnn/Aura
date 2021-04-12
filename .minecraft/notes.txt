@@ -1,0 +1,18 @@
+Add Mapping Mod
+Dont use fullscreen default
+Disable shaders for default
+footstep sounds are way too loud
+UNABLE TO DROWN
+UNABLE TO BURN
+coodown on back disable also warmup
+Hunger reset on death is bad fix me
+cant create t2 and t3 basic tables
+cant create toolbox
+cant create mechanical toolbox
+debuff skeletons
+diet hoppers
+SNAD
+more alluminum
+more cobalt
+more ardite
+more nether amethyst

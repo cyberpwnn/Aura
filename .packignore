@@ -2,8 +2,12 @@
 .git
 .minecraft/crash-reports
 .minecraft/logs
+.minecraft/logs
 .minecraft/reports
 .minecraft/saves
+.minecraft/saves
 .minecraft/screenshots
+.minecraft/screenshots
+.minecraft/server
 .minecraft/server
 package-launchkit.bat
