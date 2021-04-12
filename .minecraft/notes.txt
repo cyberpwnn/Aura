@@ -5,5 +5,4 @@ Hunger reset on death is bad fix me
 cant create t2 and t3 basic tables
 cant create toolbox
 cant create mechanical toolbox
-diet hoppers
 SNAD
