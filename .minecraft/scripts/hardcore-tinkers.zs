@@ -1,4 +1,3 @@
-import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.remove(<tconstruct:soil> * 8);
 recipes.remove(<tconstruct:soil> * 2);
@@ -15,3 +14,12 @@ RecipeBuilder.get("mason")
   .setExtraOutputTwo(<tconstruct:soil> * 6, 0.45)
   .setExtraOutputThree(<tconstruct:soil> * 3, 0.6)
   .create();
+
+// Smeltery controler
+recipes.remove(<tconstruct:smeltery_controller>);
+SalisMundus.addSingleConversion(<ore:blockSeared>, <tconstruct:smeltery_controller>, "");
+mods.jei.JEI.addDescription(<artisanworktables:worktable:7>,"Apply salis mundus to seared bricks to create a smeltery controller.");
+
+// Flesh dried to leather
+mods.tconstruct.Drying.removeRecipe(<tconstruct:edible:10>); // Flesh already registered
+mods.tconstruct.Drying.addRecipe(<minecraft:rotten_flesh>, <minecraft:leather>, 6000);

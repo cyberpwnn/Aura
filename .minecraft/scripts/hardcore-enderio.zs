@@ -2,17 +2,23 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.thaumcraft.Infusion;
 
 // Conduit Binder
+recipes.remove(<enderio:item_material:4> * 2);
+recipes.remove(<enderio:item_material:4>);
+recipes.remove(<ore:itemConduitBinder> * 2);
+recipes.remove(<ore:itemConduitBinder>);
+mods.botania.ManaInfusion.addInfusion(<enderio:item_material:4>, <enderio:item_material:22>, 100);
+
+// Conduit Binder Blend
 recipes.remove(<enderio:item_material:22> * 8);
 recipes.remove(<enderio:item_material:22>);
 RecipeBuilder.get("mason")
   .setShapeless([<ore:sand>,<tconstruct:dried_clay>,<ore:gravel>])
-  .addOutput(<enderio:item_material:22> * 16)
+  .addOutput(<enderio:item_material:22> * 8)
   .addTool(<ore:artisansTrowel>, 9)
   .addTool(<ore:artisansSifter>, 17)
-  .setFluid(<liquid:plantoil> * 273)
-  .setExtraOutputOne(<enderio:item_material:22> * 3, 0.33)
-  .setExtraOutputTwo(<enderio:item_material:22> * 7, 0.15)
-  .setExtraOutputThree(<enderio:item_material:22> * 9, 0.11)
+  .setExtraOutputOne(<enderio:item_material:22> * 2, 0.33)
+  .setExtraOutputTwo(<enderio:item_material:22> * 4, 0.15)
+  .setExtraOutputThree(<enderio:item_material:22> * 6, 0.11)
   .setMinimumTier(1)
   .create();
 

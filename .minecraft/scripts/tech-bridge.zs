@@ -52,6 +52,9 @@ mods.thaumcraft.Infusion.registerRecipe("infinitypowder", researchInfinityPowder
 // Allying Palladium
 mods.tconstruct.Alloy.addRecipe(<liquid:palladium_fluid> * 15, [<liquid:platinum> * 3, <liquid:starmetal> * 5, <liquid:pulsating_iron> * 7]);
 
+// Allying Cyanite
+mods.tconstruct.Alloy.addRecipe(<liquid:cyanite> * 200, [<liquid:signalum> * 25, <liquid:starmetal> * 25, <liquid:pulsating_iron> * 75, <liquid:cobalt> * 25]);
+
 // Mundane Construct
 RecipeBuilder.get("mage")
   .setShaped([
