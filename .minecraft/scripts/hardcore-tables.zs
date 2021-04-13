@@ -6,6 +6,26 @@ import mods.artisanworktables.builder.RecipeBuilder;
 // The basic worktable
 recipes.addShapeless("basicworktable",<artisanworktables:worktable:5>,[<tconstruct:tooltables>,<minecraft:paper>]); 
 
+// The basic worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:paper>, <tconstruct:tooltables>, <minecraft:paper>],
+    [null, <minecraft:chest>, null]])
+  .addTool(<ore:artisansHammer>, 6)
+  .addOutput(<artisanworktables:workstation:5>)
+  .create();
+
+// The basic worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:paper>, null, <minecraft:paper>],
+    [<artisanworktables:workstation:5>, <minecraft:iron_bars>, <artisanworktables:workstation:5>],
+    [<minecraft:chest>, null, <minecraft:chest>]])
+  .addTool(<ore:artisansHandsaw>, 9)
+  .addTool(<ore:artisansHammer>, 9)
+  .addOutput(<artisanworktables:workshop:5>)
+  .create();
+
 // Mage Worktable
 SalisMundus.addSingleConversion(<artisanworktables:worktable:5>, <artisanworktables:worktable:7>, "");
 mods.botania.ManaInfusion.addInfusion(<artisanworktables:worktable:7>, <artisanworktables:worktable:5>, 3000);
