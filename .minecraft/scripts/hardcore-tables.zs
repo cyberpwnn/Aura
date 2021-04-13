@@ -26,6 +26,34 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:workshop:5>)
   .create();
 
+// Toolbox 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>],
+    [<embers:item_pipe>, <minecraft:chest>, <embers:item_pipe>],
+    [<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>]])
+  .addTool(<<ore:artisansFramingHammer>, 6)
+  .addOutput(<artisanworktables:toolbox>)
+  .setExtraOutputOne(<thaumcraft:slab_greatwood>, 0.25)
+  .setExtraOutputTwo(<thermalfoundation:material:195> * 4, 0.65)
+  .setExtraOutputThree(<thermalfoundation:material:195> * 2, 0.65)
+  .create();
+
+// Mechanical Toolbox
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <astralsorcery:blockinfusedwood>, null],
+    [<astralsorcery:blockinfusedwood>, <artisanworktables:toolbox>, <astralsorcery:blockinfusedwood>],
+    [<enderio:item_material:11>, <conarm:armor_plate>.withTag({Material: "bronze"}), <enderio:item_material:11>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<<ore:artisansPunch>, 6)
+  .addTool(<<ore:artisansDriver>, 6)
+  .addOutput(<artisanworktables:mechanical_toolbox>)
+  .setExtraOutputOne(<thermalfoundation:material:227> * 3, 0.25)
+  .setExtraOutputTwo(<thermalfoundation:material:227> * 3, 0.25)
+  .setExtraOutputThree(<thermalfoundation:material:227> * 3, 0.25)
+  .create();
+
 // Mage Worktable
 SalisMundus.addSingleConversion(<artisanworktables:worktable:5>, <artisanworktables:worktable:7>, "");
 mods.botania.ManaInfusion.addInfusion(<artisanworktables:worktable:7>, <artisanworktables:worktable:5>, 3000);

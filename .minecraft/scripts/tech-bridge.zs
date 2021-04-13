@@ -59,10 +59,10 @@ RecipeBuilder.get("mage")
     [<psi:material:1>, <bloodarsenal:base_item:2>, <psi:material:1>],
     [<botania:livingwood1slab>, <botania:livingwood1slab>, <botania:livingwood1slab>]])
   .addTool(<ore:artisansGrimoire>, 48)
-  .addOutput(<contenttweaker:mundaneconstruct> * 8)
-  .setExtraOutputOne(<contenttweaker:mundaneconstruct> * 3, 0.1)
-  .setExtraOutputTwo(<contenttweaker:mundaneconstruct> * 2, 0.2)
-  .setExtraOutputThree(<contenttweaker:mundaneconstruct>, 0.3)
+  .addOutput(<contenttweaker:mundaneconstruct> * 16)
+  .setExtraOutputOne(<contenttweaker:mundaneconstruct> * 12, 0.1)
+  .setExtraOutputTwo(<contenttweaker:mundaneconstruct> * 6, 0.2)
+  .setExtraOutputThree(<contenttweaker:mundaneconstruct> * 2, 0.3)
   .create();
 
 // Aether Construct
@@ -90,10 +90,10 @@ RecipeBuilder.get("mage")
   .addTool(<ore:artisansGrimoire>, 350)
   .addTool(<ore:artisansQuill>, 350)
   .addTool(<ore:artisansSolderer>, 350)
-  .addOutput(<contenttweaker:arcaneconstruct> * 8)
-  .setExtraOutputOne(<contenttweaker:arcaneconstruct> * 8, 0.2)
-  .setExtraOutputTwo(<contenttweaker:arcaneconstruct> * 4, 0.4)
-  .setExtraOutputThree(<contenttweaker:arcaneconstruct> * 2, 0.6)
+  .addOutput(<contenttweaker:arcaneconstruct> * 16)
+  .setExtraOutputOne(<contenttweaker:arcaneconstruct> * 12, 0.25)
+  .setExtraOutputTwo(<contenttweaker:arcaneconstruct> * 8, 0.45)
+  .setExtraOutputThree(<contenttweaker:arcaneconstruct> * 4, 0.65)
   .create();
 
 // Chaotic Construct
@@ -109,7 +109,7 @@ RecipeBuilder.get("mage")
   .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
   .addTool(<artisanworktables:artisans_hammer_platinum>, 1000)
   .addTool(<artisanworktables:artisans_file_platinum>, 1000)
-  .addOutput(<contenttweaker:chaoticconstruct>)
+  .addOutput(<contenttweaker:chaoticconstruct> * 4)
   .create();
 
 RecipeBuilder.get("mage")
