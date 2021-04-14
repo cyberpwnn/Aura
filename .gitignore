@@ -30,3 +30,5 @@ natives/
 .minecraft/.mixin.out/audit/mixin_implementation_report.txt
 
 .minecraft/optionsshaders.txt
+
+.minecraft/journeymap/data/

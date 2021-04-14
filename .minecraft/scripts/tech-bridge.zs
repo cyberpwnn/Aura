@@ -47,7 +47,7 @@ mods.botania.ManaInfusion.addInfusion(blutoniumDust, cyaniteDust, cyaniteManaCos
 mods.botania.ManaInfusion.addInfusion(blutoniumIngot, cyaniteIngot, cyaniteManaCost);
 
 // Infinity Dust
-mods.thaumcraft.Infusion.registerRecipe("infinitypowder", researchInfinityPowder, <enderio:block_infinity:1>, infinityPowderInstability, [instrumentum * 82, alienis * 56], <appliedenergistics2:sky_stone_block>, [<astralsorcery:itemusabledust>, <botania:manaresource:1>, <bloodmagic:component:4>, <embers:crystal_ember>]);
+
 
 // Allying Palladium
 mods.tconstruct.Alloy.addRecipe(<liquid:palladium_fluid> * 15, [<liquid:platinum> * 3, <liquid:starmetal> * 5, <liquid:pulsating_iron> * 7]);

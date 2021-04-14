@@ -6,7 +6,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 // The basic worktable
 recipes.addShapeless("basicworktable",<artisanworktables:worktable:5>,[<tconstruct:tooltables>,<minecraft:paper>]); 
 
-// The basic worktable
+// The basic workstation
 RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:paper>, <tconstruct:tooltables>, <minecraft:paper>],
@@ -15,7 +15,7 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:workstation:5>)
   .create();
 
-// The basic worktable
+// The basic workshop
 RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:paper>, null, <minecraft:paper>],
@@ -24,6 +24,28 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 9)
   .addTool(<ore:artisansHammer>, 9)
   .addOutput(<artisanworktables:workshop:5>)
+  .create();
+
+// Chemists workbench
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<conarm:armor_trim>.withTag({Material: "silver"}), <artisanworktables:artisans_mortar_constantan>, <conarm:armor_trim>.withTag({Material: "silver"})],
+    [<conarm:armor_trim>.withTag({Material: "silver"}), <artisanworktables:worktable:5>, <conarm:armor_trim>.withTag({Material: "silver"})],
+    [<botania:vial>, <artisanworktables:artisans_burner_manasteel>, <botania:vial>]])
+  .addTool(<ore:artisansSpanner>, 12)
+  .addTool(<ore:artisansFile>, 24)
+  .addOutput(<artisanworktables:worktable:9>)
+  .create();
+
+// Chemists workstation
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<tconstruct:binding>.withTag({Material: "starmetal"}), <artisanworktables:artisans_mortar_terrasteel>, <tconstruct:binding>.withTag({Material: "starmetal"})],
+    [<conarm:armor_plate>.withTag({Material: "steel"}), <artisanworktables:worktable:9>, <conarm:armor_plate>.withTag({Material: "steel"})],
+    [<botania:vial>, <botania:vial>, <botania:vial>]])
+  .addTool(<ore:artisansNeedle>, 82)
+  .addTool(<ore:artisansBeaker>, 46)
+  .addOutput(<artisanworktables:workstation:9>)
   .create();
 
 // Toolbox 

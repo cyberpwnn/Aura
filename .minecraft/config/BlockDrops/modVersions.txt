@@ -175,6 +175,7 @@
   "mcp": "9.42",
   "clumps": "3.1.2",
   "diethopper": "1.1",
+  "journeymap": "1.12.2-5.7.1",
   "appliedenergistics2": "rv6-stable-7",
   "endertweaker": "1.2.0",
   "surge": "2.0.77",
