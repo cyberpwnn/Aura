@@ -2,17 +2,23 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.thaumcraft.Infusion;
 
 // Conduit Binder
+recipes.remove(<enderio:item_material:4> * 2);
+recipes.remove(<enderio:item_material:4>);
+recipes.remove(<ore:itemConduitBinder> * 2);
+recipes.remove(<ore:itemConduitBinder>);
+mods.botania.ManaInfusion.addInfusion(<enderio:item_material:4>, <enderio:item_material:22>, 100);
+
+// Conduit Binder Blend
 recipes.remove(<enderio:item_material:22> * 8);
 recipes.remove(<enderio:item_material:22>);
 RecipeBuilder.get("mason")
   .setShapeless([<ore:sand>,<tconstruct:dried_clay>,<ore:gravel>])
-  .addOutput(<enderio:item_material:22> * 16)
+  .addOutput(<enderio:item_material:22> * 8)
   .addTool(<ore:artisansTrowel>, 9)
   .addTool(<ore:artisansSifter>, 17)
-  .setFluid(<liquid:plantoil> * 273)
-  .setExtraOutputOne(<enderio:item_material:22> * 3, 0.33)
-  .setExtraOutputTwo(<enderio:item_material:22> * 7, 0.15)
-  .setExtraOutputThree(<enderio:item_material:22> * 9, 0.11)
+  .setExtraOutputOne(<enderio:item_material:22> * 2, 0.33)
+  .setExtraOutputTwo(<enderio:item_material:22> * 4, 0.15)
+  .setExtraOutputThree(<enderio:item_material:22> * 6, 0.11)
   .setMinimumTier(1)
   .create();
 
@@ -91,3 +97,16 @@ recipes.remove(<enderio:block_cap_bank:3>);
 var e = <conarm:armor_plate>.withTag({Material: "cobalt"});
 var f = <enderio:item_basic_capacitor:2>;
 mods.thaumcraft.Infusion.registerRecipe("cbank3", "VISBATTERY", <enderio:block_cap_bank:3>, 40, [<aspect:potentia> * 40,<aspect:vacuos>*20], <tconstruct:tough_binding>.withTag({Material: "palladium"}), [e,f,e,f,e,f,e,f]);
+
+RecipeBuilder.get("chemist")
+  .setShaped([
+    [null, <astralsorcery:itemcraftingcomponent:2>, null],
+    [<taiga:palladium_nugget>, <thaumcraft:slab_arcane_stone>, <taiga:palladium_nugget>],
+    [<botania:manaresource:23>, <minecraft:blaze_powder>, <botania:manaresource:23>]])
+  .addTool(<ore:artisansBurner>, 24)
+  .addTool(<enderio:item_alloy_ball:2>, 16)
+  .addOutput(<enderio:item_material:20> * 8)
+  .setExtraOutputOne(<enderio:item_material:20> * 4, 0.6)
+  .setExtraOutputTwo(<enderio:item_material:20> * 8, 0.3)
+  .setExtraOutputThree(<enderio:item_material:20> * 16, 0.1)
+  .create();

@@ -6,6 +6,76 @@ import mods.artisanworktables.builder.RecipeBuilder;
 // The basic worktable
 recipes.addShapeless("basicworktable",<artisanworktables:worktable:5>,[<tconstruct:tooltables>,<minecraft:paper>]); 
 
+// The basic workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:paper>, <tconstruct:tooltables>, <minecraft:paper>],
+    [null, <minecraft:chest>, null]])
+  .addTool(<ore:artisansHammer>, 6)
+  .addOutput(<artisanworktables:workstation:5>)
+  .create();
+
+// The basic workshop
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:paper>, null, <minecraft:paper>],
+    [<artisanworktables:workstation:5>, <minecraft:iron_bars>, <artisanworktables:workstation:5>],
+    [<minecraft:chest>, null, <minecraft:chest>]])
+  .addTool(<ore:artisansHandsaw>, 9)
+  .addTool(<ore:artisansHammer>, 9)
+  .addOutput(<artisanworktables:workshop:5>)
+  .create();
+
+// Chemists workbench
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<conarm:armor_trim>.withTag({Material: "silver"}), <artisanworktables:artisans_mortar_constantan>, <conarm:armor_trim>.withTag({Material: "silver"})],
+    [<conarm:armor_trim>.withTag({Material: "silver"}), <artisanworktables:worktable:5>, <conarm:armor_trim>.withTag({Material: "silver"})],
+    [<botania:vial>, <artisanworktables:artisans_burner_manasteel>, <botania:vial>]])
+  .addTool(<ore:artisansSpanner>, 12)
+  .addTool(<ore:artisansFile>, 24)
+  .addOutput(<artisanworktables:worktable:9>)
+  .create();
+
+// Chemists workstation
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<tconstruct:binding>.withTag({Material: "starmetal"}), <artisanworktables:artisans_mortar_terrasteel>, <tconstruct:binding>.withTag({Material: "starmetal"})],
+    [<conarm:armor_plate>.withTag({Material: "steel"}), <artisanworktables:worktable:9>, <conarm:armor_plate>.withTag({Material: "steel"})],
+    [<botania:vial>, <botania:vial>, <botania:vial>]])
+  .addTool(<ore:artisansNeedle>, 82)
+  .addTool(<ore:artisansBeaker>, 46)
+  .addOutput(<artisanworktables:workstation:9>)
+  .create();
+
+// Toolbox 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>],
+    [<embers:item_pipe>, <minecraft:chest>, <embers:item_pipe>],
+    [<thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>, <thaumcraft:slab_greatwood>]])
+  .addTool(<ore:artisansFramingHammer>, 6)
+  .addOutput(<artisanworktables:toolbox>)
+  .setExtraOutputOne(<thaumcraft:slab_greatwood>, 0.25)
+  .setExtraOutputTwo(<thermalfoundation:material:195> * 4, 0.65)
+  .setExtraOutputThree(<thermalfoundation:material:195> * 2, 0.65)
+  .create();
+
+// Mechanical Toolbox
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [null, <astralsorcery:blockinfusedwood>, null],
+    [<astralsorcery:blockinfusedwood>, <artisanworktables:toolbox>, <astralsorcery:blockinfusedwood>],
+    [<enderio:item_material:11>, <conarm:armor_plate>.withTag({Material: "bronze"}), <enderio:item_material:11>]])
+  .setFluid(<liquid:creosote> * 1000)
+  .addTool(<ore:artisansPunch>, 6)
+  .addTool(<ore:artisansDriver>, 6)
+  .addOutput(<artisanworktables:mechanical_toolbox>)
+  .setExtraOutputOne(<thermalfoundation:material:227> * 3, 0.25)
+  .setExtraOutputTwo(<thermalfoundation:material:227> * 3, 0.25)
+  .setExtraOutputThree(<thermalfoundation:material:227> * 3, 0.25)
+  .create();
+
 // Mage Worktable
 SalisMundus.addSingleConversion(<artisanworktables:worktable:5>, <artisanworktables:worktable:7>, "");
 mods.botania.ManaInfusion.addInfusion(<artisanworktables:worktable:7>, <artisanworktables:worktable:5>, 3000);
