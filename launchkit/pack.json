@@ -5,7 +5,7 @@
         "version": "15"
     },
     "game": {
-        "forgeVersion": "14.23.5.2854",
+        "forgeVersion": "14.23.5.2847",
         "minecraftVersion": "1.12.2"
     },
     "profiles": [
@@ -92,33 +92,9 @@
         },
         {
             "download": "https://codeload.github.com/cyberpwnn/Aura/zip/refs/heads/main",
-            "into": "scripts",
+            "into": "/",
             "location": "/",
-            "sub": ".minecraft/scripts",
-            "type": "zip",
-            "hint": "repository"
-        },
-        {
-            "download": "https://codeload.github.com/cyberpwnn/Aura/zip/refs/heads/main",
-            "into": "config",
-            "location": "/",
-            "sub": ".minecraft/config",
-            "type": "zip",
-            "hint": "repository"
-        },
-        {
-            "download": "https://codeload.github.com/cyberpwnn/Aura/zip/refs/heads/main",
-            "into": "shaderpacks",
-            "location": "/",
-            "sub": ".minecraft/shaderpacks",
-            "type": "zip",
-            "hint": "repository"
-        },
-        {
-            "download": "https://codeload.github.com/cyberpwnn/Aura/zip/refs/heads/main",
-            "into": "resourcepacks",
-            "location": "/",
-            "sub": ".minecraft/resourcepacks",
+            "sub": ".minecraft",
             "type": "zip",
             "hint": "repository"
         }

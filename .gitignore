@@ -32,3 +32,5 @@ natives/
 .minecraft/optionsshaders.txt
 
 .minecraft/journeymap/data/
+
+launchkit/LaunchKit/
