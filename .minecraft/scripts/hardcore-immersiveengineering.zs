@@ -115,3 +115,33 @@ RecipeBuilder.get("engineer")
   .setExtraOutputTwo(<thaumcraft:tube>, 0.25)
   .setExtraOutputThree(<embers:shard_ember>, 0.35)
   .create();
+
+recipes.remove(<immersiveengineering:metal_device1:2>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<conarm:armor_plate>.withTag({Material: "iron"}), <tconstruct:binding>.withTag({Material: "aluminum"}), <conarm:armor_plate>.withTag({Material: "iron"})],
+    [<thermalfoundation:material:893>, <immersiveengineering:metal_decoration0>, <thermalfoundation:material:893>],
+    [<conarm:armor_plate>.withTag({Material: "iron"}), <thermalfoundation:material:289>, <conarm:armor_plate>.withTag({Material: "iron"})]])
+  .addTool(<ore:artisansSolderer>, 12)
+  .addOutput(<immersiveengineering:metal_device1:2>)
+  .create();
+
+recipes.remove(<immersiveengineering:wooden_device0:2>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<thaumcraft:slab_silverwood>, <thaumcraft:slab_silverwood>, <thaumcraft:slab_silverwood>],
+    [<artisanworktables:toolbox>, null, <artisanworktables:toolbox>]])
+  .addTool(<ore:artisansHandsaw>, 12)
+  .addOutput(<immersiveengineering:wooden_device0:2>)
+  .create();
+
+recipes.remove(<immersiveengineering:metal_device1:13>);
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<botania:managlasspane>, <immersiveengineering:material:26>, <botania:managlasspane>],
+    [<botania:managlasspane>, null, <botania:managlasspane>],
+    [<astralsorcery:blockinfusedwood:1>, <immersiveengineering:material:8>, <astralsorcery:blockinfusedwood:1>]])
+  .addTool(<ore:artisansSolderer>, 12)
+  .addTool(<ore:artisansLens>, 7)
+  .addOutput(<immersiveengineering:metal_device1:13>)
+  .create();
