@@ -161,3 +161,13 @@ RecipeBuilder.get("engineer")
   .addTool(<ore:artisansPliers>, 18)
   .addOutput(<artisanworktables:workshop:6>)
   .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<conarm:armor_trim>.withTag({Material: "leather"}), <conarm:armor_trim>.withTag({Material: "leather"}), <conarm:armor_trim>.withTag({Material: "leather"})],
+    [<minecraft:bowl>, <tconstruct:tooltables>, <harvestcraft:flouritem>],
+    [<minecraft:log:2>, <artisanworktables:artisans_cutting_board_gold>, <minecraft:log:2>]])
+  .setFluid(<liquid:water> * 1000)
+  .addTool(<ore:artisansPencil>, 82)
+  .addOutput(<artisanworktables:worktable:11>)
+  .create();
