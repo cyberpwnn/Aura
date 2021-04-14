@@ -2,7 +2,7 @@
     "identity": {
         "name": "The name of this pack",
         "description": "The description of this pack",
-        "version": "20"
+        "version": "21"
     },
     "game": {
         "forgeVersion": "14.23.5.2847",

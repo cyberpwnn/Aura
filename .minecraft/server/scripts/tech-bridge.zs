@@ -55,6 +55,9 @@ mods.tconstruct.Alloy.addRecipe(<liquid:palladium_fluid> * 15, [<liquid:platinum
 // Allying Cyanite
 mods.tconstruct.Alloy.addRecipe(<liquid:cyanite> * 200, [<liquid:signalum> * 25, <liquid:starmetal> * 25, <liquid:pulsating_iron> * 75, <liquid:cobalt> * 25]);
 
+// Redstone Alloy (Earlier Game)
+mods.tconstruct.Alloy.addRecipe(<liquid:redstone_alloy> * 200, [<liquid:redstone> * 100, <liquid:steel> * 75, <liquid:pulsating_iron> * 25]);
+
 // Mundane Construct
 RecipeBuilder.get("mage")
   .setShaped([
