@@ -24,9 +24,6 @@
                 "-XX:+ParallelRefProcEnabled",
                 "-XX:ConcGCThreads=4",
                 "-XX:+DisableExplicitGC"
-            ],
-            "activation": [
-                "cpu_threads >= 0"
             ]
         },{
 
