@@ -2,7 +2,7 @@
     "identity": {
         "name": "The name of this pack",
         "description": "The description of this pack",
-        "version": "21"
+        "version": "22"
     },
     "game": {
         "forgeVersion": "14.23.5.2847",
@@ -10,7 +10,27 @@
     },
     "profiles": [
         {
-            "name": "ultra",
+            "name": "default",
+            "launchArgs": [
+                "-Xmx8g",
+                "-Xms8g",
+                "-XX:+UnlockExperimentalVMOptions",
+                "-XX:+UseG1GC",
+                "-XX:G1NewSizePercent=10",
+                "-XX:G1MaxNewSizePercent=20",
+                "-XX:+UseStringDeduplication",
+                "-XX:StringDeduplicationAgeThreshold=4",
+                "-XX:MaxGCPauseMillis=100",
+                "-XX:+ParallelRefProcEnabled",
+                "-XX:ConcGCThreads=4",
+                "-XX:+DisableExplicitGC"
+            ],
+            "activation": [
+                "cpu_threads >= 0"
+            ]
+        },{
+
+            "name": "psychotic",
             "launchArgs": [
                 "-Xmx8g",
                 "-Xms8g",
@@ -26,6 +46,28 @@
                 "-XX:+DisableExplicitGC"
             ]
         }
+    ],
+    "tweaks": [
+        {"file":"config/options.txt","find":"soundCategory_ds_footsteps=","replace":"soundCategory_ds_footsteps=0.225","addIfMissing":true},
+        {"file":"config/options.txt","find":"fov=","replace":"fov=0.5","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"mouseSensitivity=","replace":"mouseSensitivity=0.31690142","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"renderDistance=","replace":"renderDistance=15","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"guiScale=","replace":"guiScale=2","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_master=","replace":"soundCategory_master=0.204","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_music=","replace":"soundCategory_music=0.134","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_record=","replace":"soundCategory_record=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_weather=","replace":"soundCategory_weather=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_block=","replace":"soundCategory_block=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_hostile=","replace":"soundCategory_hostile=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_neutral=","replace":"soundCategory_neutral=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_player=","replace":"soundCategory_player=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_ambient=","replace":"soundCategory_ambient=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_voice=","replace":"soundCategory_voice=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"soundCategory_ds_biome=","replace":"soundCategory_ds_biome=0.034","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/options.txt","find":"enableVsync=","replace":"enableVsync=0.164","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/optionsof.txt","find":"ofChunkUpdates=","replace":"ofChunkUpdates=5","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/optionsof.txt","find":"ofRenderRegions=","replace":"ofRenderRegions=true","addIfMissing":true,"profile":"psychotic"},
+        {"file":"config/optionsof.txt","find":"ofShowGlErrors=","replace":"ofShowGlErrors=false","addIfMissing":true,"profile":"psychotic"}
     ],
     "install": [
         {
