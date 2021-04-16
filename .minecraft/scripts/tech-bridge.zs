@@ -61,14 +61,26 @@ mods.tconstruct.Alloy.addRecipe(<liquid:redstone_alloy> * 200, [<liquid:redstone
 // Mundane Construct
 RecipeBuilder.get("mage")
   .setShaped([
-    [<thaumcraft:quicksilver>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "machina"}]}), <thaumcraft:quicksilver>],
-    [<psi:material:1>, <bloodarsenal:base_item:2>, <psi:material:1>],
-    [<botania:livingwood1slab>, <botania:livingwood1slab>, <botania:livingwood1slab>]])
-  .addTool(<ore:artisansGrimoire>, 48)
+    [<conarm:armor_trim>.withTag({Material: "endstone"}), <thaumcraft:focus_2>, <conarm:armor_trim>.withTag({Material: "endstone"})],
+    [<thaumcraft:seal:5>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), <thaumcraft:seal:3>],
+    [<psi:material>, <tconstruct:binding>.withTag({Material: "terrasteel"}), <bloodarsenal:base_item:2>]])
+  .addTool(<ore:artisansGrimoire>, 18)
+  .addTool(<ore:artisansLens>, 26)
   .addOutput(<contenttweaker:mundaneconstruct> * 16)
-  .setExtraOutputOne(<contenttweaker:mundaneconstruct> * 12, 0.1)
-  .setExtraOutputTwo(<contenttweaker:mundaneconstruct> * 6, 0.2)
-  .setExtraOutputThree(<contenttweaker:mundaneconstruct> * 2, 0.3)
+  .create();
+
+// Arcane Construct
+RecipeBuilder.get("mage")
+  .setShaped([
+    [null, <conarm:armor_trim>.withTag({Material: "fairy"}), <appliedenergistics2:material:12>, <conarm:armor_trim>.withTag({Material: "fairy"}), null],
+    [null, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.armara"}}), <contenttweaker:mundaneconstruct>, <botanicadds:gaia_shard>, null],
+    [<conarm:armor_trim>.withTag({Material: "fairy"}), <contenttweaker:mundaneconstruct>, <tconstruct:tough_binding>.withTag({Material: "palladium"}), <contenttweaker:mundaneconstruct>, <conarm:armor_trim>.withTag({Material: "fairy"})],
+    [null, <thaumcraft:nugget:7>, <contenttweaker:mundaneconstruct>, <bloodmagic:sigil_phantom_bridge>.withTag({}), null],
+    [null, <conarm:armor_trim>.withTag({Material: "fairy"}), <appliedenergistics2:material:12>, <conarm:armor_trim>.withTag({Material: "fairy"}), null]])
+  .addTool(<ore:artisansGrimoire>, 350)
+  .addTool(<ore:artisansQuill>, 350)
+  .addTool(<ore:artisansSolderer>, 350)
+  .addOutput(<contenttweaker:arcaneconstruct> * 4)
   .create();
 
 // Aether Construct
@@ -82,24 +94,6 @@ RecipeBuilder.get("mage")
   .setExtraOutputOne(<contenttweaker:aetherconstruct> * 3, 0.1)
   .setExtraOutputTwo(<contenttweaker:aetherconstruct> * 2, 0.2)
   .setExtraOutputThree(<contenttweaker:aetherconstruct>, 0.3)
-  .create();
-
-// Arcane Construct
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<thaumcraft:ingot:1>, <thaumadditions:seal_symbol>.withTag({Aspect: "machina"}), <botanicadds:rune_energy>, <thaumadditions:seal_symbol>.withTag({Aspect: "instrumentum"}), <thaumcraft:ingot:1>],
-    [<taiga:abyssum_dust>, <embers:flame_barrier>, <enderio:item_alloy_ball:8>, <embers:flame_barrier>, <taiga:nihilite_dust>],
-    [<bloodmagic:sigil_transposition>, <botania:manaresource:14>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.vicio"}}), <botania:manaresource:14>, <bloodarsenal:sigil_lightning>],
-    [<appliedenergistics2:material:10>, <naturesaura:sky_ingot>, <tconstruct:binding>.withTag({Material: "psigem"}), <naturesaura:sky_ingot>, <appliedenergistics2:material:10>],
-    [<thaumcraft:ingot:1>, <enderio:item_basic_capacitor:2>, <embers:glimmer_shard>.withTag({light: 800}), <enderio:item_basic_capacitor:2>, <thaumcraft:ingot:1>]])
-  .setFluid(<liquid:soularium> * 5570)
-  .addTool(<ore:artisansGrimoire>, 350)
-  .addTool(<ore:artisansQuill>, 350)
-  .addTool(<ore:artisansSolderer>, 350)
-  .addOutput(<contenttweaker:arcaneconstruct> * 16)
-  .setExtraOutputOne(<contenttweaker:arcaneconstruct> * 12, 0.25)
-  .setExtraOutputTwo(<contenttweaker:arcaneconstruct> * 8, 0.45)
-  .setExtraOutputThree(<contenttweaker:arcaneconstruct> * 4, 0.65)
   .create();
 
 // Chaotic Construct
@@ -118,6 +112,7 @@ RecipeBuilder.get("mage")
   .addOutput(<contenttweaker:chaoticconstruct> * 4)
   .create();
 
+// Cheats
 RecipeBuilder.get("mage")
   .setShaped([
     [null, null, <contenttweaker:arcaneconstruct>, null, null],
