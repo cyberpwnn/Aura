@@ -69,6 +69,15 @@ RecipeBuilder.get("mage")
   .addOutput(<contenttweaker:mundaneconstruct> * 16)
   .create();
 
+// Plate...
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<ore:plateIron>, null, null],
+    [null, <ore:plateIron>, null],
+    [null, null, <ore:plateIron>],
+  .addOutput(<thaumcraft:plate:1> * 3)
+  .create();
+
 // Arcane Construct
 RecipeBuilder.get("mage")
   .setShaped([
@@ -231,3 +240,51 @@ RecipeBuilder.get("mage")
   .addTool(<artisanworktables:artisans_file_platinum>, 1)
   .addOutput(<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}))
   .create();
+
+// Patch Vis Pods
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "aer"}), "aer 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "terra"}), "terra 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "ignis"}), "ignis 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "aqua"}), "aqua 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "ordo"}), "ordo 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), "perditio 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "vacuos"}), "vacuos 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "lux"}), "lux 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "motus"}), "motus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "gelum"}), "gelum 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "vitreus"}), "vitreus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "metallum"}), "metallum 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "victus"}), "victus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "mortuus"}), "mortuus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "potentia"}), "potentia 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "permutatio"}), "permutatio 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "praecantatio"}), "praecantatio 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "auram"}), "auram 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "alkimia"}), "alkimia 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "vitium"}), "vitium 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "tenebrae"}), "tenebrae 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "alienis"}), "alienis 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "volatus"}), "volatus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "herba"}), "herba 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "instrumentum"}), "instrumentum 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "fabrico"}), "fabrico 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "machina"}), "machina 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "vinculum"}), "vinculum 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "spiritus"}), "spiritus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "cognito"}), "cognito 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "sensus"}), "sensus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "aversio"}), "aversio 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "praemunio"}), "praemunio 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "desiderium"}), "desiderium 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "examimis"}), "examimis 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "bestia"}), "bestia 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "humanus"}), "humanus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "fluctus"}), "fluctus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "sonus"}), "sonus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "exitium"}), "exitium 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "caeles"}), "caeles 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "draco"}), "draco 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "infernum"}), "infernum 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "ventus"}), "ventus 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "visum"}), "visum 1");
+mods.thaumcraft.Aspects.set(<thaumadditions:vis_pod>.withTag({Aspect: "imperium"}), "imperium 1");

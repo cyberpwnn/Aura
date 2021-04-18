@@ -97,7 +97,7 @@ RecipeBuilder.get("engineer")
     [<conarm:armor_trim>.withTag({Material: "copper"}), <conarm:armor_plate>.withTag({Material: "iron"}), <conarm:armor_trim>.withTag({Material: "copper"})],
     [<immersiveengineering:material:8>, <plustic:pipe_piece>.withTag({Material: "manasteel"}), <immersiveengineering:material:8>],
     [<conarm:armor_trim>.withTag({Material: "copper"}), <conarm:armor_plate>.withTag({Material: "iron"}), <conarm:armor_trim>.withTag({Material: "copper"})]])
-  .setFluid(<liquid:alumite> * 759)
+  .setFluid(<liquid:alumite> * 259)
   .addTool(<ore:artisansSolderer>, 56)
   .addOutput(<immersiveengineering:metal_decoration0:4>)
   .create();
@@ -109,7 +109,7 @@ RecipeBuilder.get("engineer")
     [<immersiveengineering:material:8>, <plustic:pipe_piece>.withTag({Material: "starmetal"}), <immersiveengineering:material:8>],
     [<embers:crystal_ember>, <thaumcraft:metal_alchemical>, <embers:crystal_ember>]])
   .addTool(<ore:artisansSolderer>, 76)
-  .setFluid(<liquid:alumite> * 1672)
+  .setFluid(<liquid:alumite> * 472)
   .addOutput(<immersiveengineering:metal_decoration0:5>)
   .setExtraOutputOne(<immersiveengineering:material:8>, 0.1)
   .setExtraOutputTwo(<thaumcraft:tube>, 0.25)
