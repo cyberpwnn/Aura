@@ -69,15 +69,6 @@ RecipeBuilder.get("mage")
   .addOutput(<contenttweaker:mundaneconstruct> * 16)
   .create();
 
-// Plate...
-RecipeBuilder.get("mage")
-  .setShaped([
-    [<ore:plateIron>, null, null],
-    [null, <ore:plateIron>, null],
-    [null, null, <ore:plateIron>],
-  .addOutput(<thaumcraft:plate:1> * 3)
-  .create();
-
 // Arcane Construct
 RecipeBuilder.get("mage")
   .setShaped([
